@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Tilt+Neon&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&family=Poppins:wght@300&family=Tilt+Neon&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:wght@300&family=Tilt+Neon&display=swap" rel="stylesheet">
+    <title>Kalkulator Persegi</title>
+</head>
+<body>
+    <div class="navtop">
+        <p>
+            <b>Katik</b> <small>Kalkulator Matematik</small>
+        </p>
+    </div>
+    <div class="border">
+        <div class="descripsi">
+            <p>
+                <p id="BoldW">
+                    Welcome to Katik
+                </p>
+                Hai sobat, selamat datang di katik :]
+                <br>
+                Sebuah web apps sederhana yang bertugas untuk menghitung luas dan keliling bangunan datar
+            </p>
+            <div id="navLink" class="navLink">
+                <button class="btn active">Persegi</button>
+                <button class="btn">P. Persegi</button>
+            </div>
+        </div>
+        <div class="calculator" id="calculatorL">
+            <p class="JL">Luas Persegi</p>
+            <div class="imageBS">
+                <div class="bujurSangkar"></div>
+                <div class="a">A</div>
+                <div class="b">B</div>
+                <div class="c">C</div>
+                <div class="d">D</div>
+                <div class="namaBS">Bujur sangkar</div>
+            </div>
+            <div style="margin-left: 10px;">
+                <p style="text-align: left;">Rumus Luas Persegi yaitu:</p>
+                <p>L = S x S</p>
+                <p style="text-align: left;">Di mana :</p>
+                <p style="text-align: left; line-height: 1;">L = Luas</p>
+                <p style="text-align: left;">S = Sisi</p>
+            </div>
+            <span style="display:block;border: 1px solid #575656;"></span>
+            <h2>Hitung Luas Persegi</h2>
+            <input type="number" id="sideLengthL" placeholder="Masukkan panjang sisi" />
+            <br>
+            <p style="margin: 20px; text-align: left;" id="areaResult"><span id="area">---</span></p>
+            <button onclick="calculateLuas()">Hitung</button>
+            <button id="resetL" onclick="resetL()">Reset</button>
+        </div>
+        <div class="calculator" id="calculatorK" hidden>
+            <p class="JK">Keliling Persegi</P>
+            <div class="imageBS">
+                <div class="bujurSangkar"></div>
+                <div class="a">A</div>
+                <div class="b">B</div>
+                <div class="c">C</div>
+                <div class="d">D</div>
+                <div class="namaBS">Bujur sangkar</div>
+            </div>
+            <div style="margin-left: 10px;">
+                <p style="text-align: left;">Rumus Keliling Persegi yaitu:</p>
+                <p>K = 4 x S</p>
+                <p style="text-align: left;">Di mana :</p>
+                <p style="text-align: left; line-height: 1;">K = Keliling</p>
+                <p style="text-align: left;">S = Sisi</p>
+            </div>
+            <span style="display:block;border: 1px solid #575656;"></span>
+            <h2>Hitung Keliling Persegi</h2>
+            <input type="number" id="sideLengthK" placeholder="Masukkan panjang sisi" />
+            <br>
+            <p style="margin: 20px; text-align: left;" id="perimeterResult"><span id="perimeter">---</span></p>
+            <button onclick="calculateKeliling()">Hitung</button>
+            <button id="resetK" onclick="resetK()">Reset</button>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

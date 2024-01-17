@@ -1,0 +1,267 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #808080;
+    margin: 0;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0; */
+}
+.navtop{
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    font-family: "Darker Grotesque", sans-serif;
+    background-color: blue;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    z-index: 1;
+    /* text-decoration: none; */
+    /* font-size: 17px; */
+}
+
+.navtop b{
+    font-family: "Tilt Neon", sans-serif;
+    font-size: 30px;
+}
+
+.navtop small{
+    font-size: 20px;
+}
+
+.border{
+    overflow-x: hidden;
+    background-color: #f2f2f2;
+    margin: 100px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 100px;
+}
+
+.navLink{
+    display: block;
+    margin: 20px;
+}
+
+.navLink .btn{
+    display: block;
+    border: none;
+    font-weight: bold;
+    width: 100%;
+    margin-bottom: 0px;
+    color:black;
+    padding: 14px;
+    background-color: white; 
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+.navLink .active, .btn:hover{
+    color:white;
+    background-color: blue;
+}
+
+
+.descripsi{
+    font-family: "Nunito", sans-serif;
+    text-align: center;
+}
+
+.descripsi #BoldW{
+    font-size: 33px;
+    line-height: 0;
+}
+
+.calculator .JL, .JK{
+    margin: 0;
+    background-color: blue;
+    padding: 50px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.calculator {
+    line-height: 0%;
+    margin: 20px;
+    text-align: center;
+    /* padding: 20px; */
+    border: 1px solid blue;
+    border-radius: 8px;
+}
+
+.imageBS{
+    position: relative;
+    left: 41%;
+}
+.bujurSangkar{
+    position: relative;
+    right: 15px;
+    margin: 50px;
+    width: 50px;
+    height: 50px;
+    padding: 18px;
+    border: 1px solid red;
+}
+
+.a{
+    position: absolute;
+    top: 0px;
+    left: 2%;
+}
+.b{
+    position: absolute;
+    top: 0px;
+    left: 14%;
+}
+.c{
+    position: absolute;
+    bottom: 0px;
+    left: 14%;
+}
+.d{
+    position: absolute;
+    bottom: 0px;
+    left: 2%;
+}
+
+.namaBS{
+    position: absolute;
+    left: 3.4%;
+    bottom: -19%;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#sideLengthL{
+    width: 87%;
+    padding: 12px 20px;
+    margin: 20px;
+    border-top: none;
+    border-bottom: 1px;
+}
+#sideLengthK{
+    width: 87%;
+    padding: 12px 20px;
+    margin: 20px;
+    border-top: none;
+    border-bottom: 1px;
+}
+
+button {
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#resetK, #resetL{
+    background-color: red;
+}
+
+@media screen and (max-width:845px) {
+    .border{
+        display: block;
+        position: relative;
+        right: 100px;
+        width: 150px;
+        overflow-x: hidden;
+        background-color: #f2f2f2;
+        margin: 120px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        padding: 100px;
+    }
+
+    .border{
+        overflow-x: hidden;
+        background-color: #f2f2f2;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        position: relative;
+    }
+
+    .descripsi{
+        position: relative;
+        font-family: "Nunito", sans-serif;
+        right: 93px;
+        width: 21em;
+    }
+    
+    .descripsi #BoldW{
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 0;
+    }
+
+    .calculator {
+        position: relative;
+        line-height: 0%;
+        margin: 20px;
+        right: 115px;
+        width: 21em;
+        /* padding: 20px; */
+        border: 1px solid blue;
+        border-radius: 8px;
+    }
+
+    .bujurSangkar{
+        position: relative;
+        right: 65px;
+        margin: 50px;
+        width: 50px;
+        height: 50px;
+        padding: 18px;
+        border: 1px solid red;
+    }
+    
+    .a{
+        position: absolute;
+        top: 0px;
+        left: -10%;
+    }
+    .b{
+        position: absolute;
+        top: 0px;
+        left: 24%;
+    }
+    .c{
+        position: absolute;
+        bottom: 0px;
+        left: 24%;
+    }
+    .d{
+        position: absolute;
+        bottom: 0px;
+        left: -10%;
+    }
+    .namaBS{
+        position: absolute;
+        left: -6.5%;
+        bottom: -20%;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    #sideLengthL{
+        width: 70%;
+        padding: 12px 20px;
+        margin: 20px;
+        border-top: none;
+        border-bottom: 1px;
+    }
+    #sideLengthK{
+        width: 70%;
+        padding: 12px 20px;
+        margin: 20px;
+        border-top: none;
+        border-bottom: 1px;
+    }
+}
