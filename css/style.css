@@ -167,6 +167,17 @@ button {
     background-color: red;
 }
 
+.footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    line-height: 0.5;
+}
+
 @media screen and (max-width:845px) {
     .border{
         display: block;
