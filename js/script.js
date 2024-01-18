@@ -33,7 +33,7 @@ function calculateLuas() {
     var area = sideLengthL * sideLengthL;
 
     // Tampilkan hasil
-    document.getElementById("area").innerHTML = "<p>L = S * S </p><p>L = "+sideLengthL+" * "+sideLengthL +"</p>"+"<p>L = "+area+"</p>";
+    document.getElementById("area").innerHTML = "<p>L = S * S </p><p>L = "+sideLengthL+" * "+sideLengthL +"</p>"+"<p>L = "+area+"</p><p><b>Jadi Hasil Luas  Persegi = "+area+"</b></p>";
 }
 function calculateKeliling() {
     // Ambil nilai panjang sisi dari input
@@ -49,7 +49,7 @@ function calculateKeliling() {
     var perimeter = 4 * sideLengthK;
 
     // Tampilkan hasil
-    document.getElementById("perimeter").innerHTML = "<p>K = 4 * S </p><p>K = 4 * "+sideLengthK +"</p>"+"<p>K = "+perimeter+"</p>";
+    document.getElementById("perimeter").innerHTML = "<p>K = 4 * S </p><p>K = 4 * "+sideLengthK +"</p>"+"<p>K = "+perimeter+"</p><p><b>Jadi Hasil Keliling Persegi = "+perimeter+"</b></p>";
 }
 
 
