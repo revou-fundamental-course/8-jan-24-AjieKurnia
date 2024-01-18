@@ -18,6 +18,7 @@ body {
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     z-index: 1;
     /* text-decoration: none; */
     /* font-size: 17px; */
@@ -35,10 +36,11 @@ body {
 .border{
     overflow-x: hidden;
     background-color: #f2f2f2;
-    margin: 100px;
+    margin: 120px;
     border: 1px solid #ccc;
     border-radius: 10px;
     padding: 100px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 
 .navLink{
@@ -101,7 +103,7 @@ body {
 }
 .bujurSangkar{
     position: relative;
-    right: 15px;
+    right: 19px;
     margin: 50px;
     width: 50px;
     height: 50px;
